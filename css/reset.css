@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,p,nav,header,iframe,label,iframe{
+    padding: 0;
+    margin: o;
+}
+ul{
+    list-style-type: none;
+}

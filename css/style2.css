@@ -1,0 +1,224 @@
+
+html{
+
+    scroll-behavior: smooth;
+}
+body{
+     font-family: "Epunda Sans", sans-serif;
+     overflow-x: hidden;
+   }
+ 
+.config{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 15%;
+  background-color: #fff;
+  border-right: solid 1px #3231312d;
+}
+ .config .config-logo .l-img{
+  display: block;
+  width: 100% !important;
+  height: 90px !important;
+  margin:auto;
+}
+
+.config ul{
+  margin-top: 50px;
+}
+.config ul li a{
+   font-size:14px;
+   font-weight:600;
+   padding: 10px 25px;
+   color: #000;
+   text-decoration: none;
+   display: block;
+   border-bottom: solid 1px #3231312d;
+    border-top: solid 1px #3231312d;
+    text-transform: capitalize;
+}
+.nuova_voce{
+
+margin-left: 30%;
+}
+.form-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+  margin: 29px;
+}
+div h2{
+  font-size: 20px;
+  text-align: center;
+  color:#570707;
+  text-transform:capitalize;
+  padding: 10px 10px;
+  display: block;
+  background-color: #28a746d8;
+  box-shadow: 0 0 6px rgba(4, 4, 4, 1);
+}
+label{
+  color:#100f0f;
+  font-weight: 600;
+  font-size:16px;
+}
+/* Campi input, select e file */
+input[type="password"],input[type="email"],
+input[type="text"],
+input[type="number"],
+select,
+input[type="file"] {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+  border-color: #570707;
+  box-shadow: 0 0 6px rgba(40, 167, 69, 0.4);
+  outline: none;
+}
+
+/* File input elegante */
+input[type="file"] {
+  padding: 10px;
+  cursor: pointer;
+  border: 2px dashed #ccc;
+  background-color: #fafafa;
+}
+input[type="file"]:hover {
+  border-color: #6b0808;
+  background-color: #f5fff8;
+}
+
+/* Label */
+label {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+button {
+  background: #6b0808;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  width: 300px;
+  margin:auto;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+button:hover {
+  background: #4e0a0a;
+}
+@media screen and (max-width: 768px) {
+  .config{
+    width: 20%;
+  }
+  div h2{
+    margin-left: 20%;
+}
+.nuova_voce{
+  margin-left: 30%;
+}
+.config ul li a{ font-size: 11px;}
+} 
+        .menu-container {
+           margin-left: 20%;
+           margin-top: 20px;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .menu-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .menu-info img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .menu-info div {
+            display: flex;
+            flex-direction: column;
+        }
+        .menu-actions a {
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            margin-left: 5px;
+            transition: 0.3s;
+        }
+        .menu-actions a:hover {
+            background: #0056b3;
+        }
+    
+        .search-box {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+.search-box input {
+    padding: 10px 15px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.search-box button {
+    padding: 10px 15px;
+    margin-left: 8px;
+    border: none;
+    background: #28a745;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.search-box button:hover {
+    background: #218838;
+}
+.search-box .reset-btn {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background: #6c757d;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.search-box .reset-btn:hover {
+    background: #5a6268;
+}
+ul li h6{
+  text-align: center;
+  color: #f3f3f3;
+  background-color: #4e0a0a;
+  padding: 20px;
+  font-size: 18px;
+  box-shadow: 0 5px 13px rgba(0, 0, 0, 0.906);
+}
