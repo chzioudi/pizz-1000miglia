@@ -1,5 +1,5 @@
 html, body {
-  scroll-behavior: smooth; /* per link interni */
+  scroll-behavior: smooth; 
 }
 html{
     font-size: 30px;
@@ -411,11 +411,11 @@ form {
   gap: 15px;
 }
 
-/* Affianca label e input/textarea */
+
 form div {
   display: flex;
   align-items: center;
-  gap: 10px; /* distanza tra label e campo */
+  gap: 10px; 
 }
 
 form label {
@@ -820,7 +820,7 @@ section .opzione-telefono a:hover{
 }
 
 
-/* css manu.php*/
+/* css menu.php*/
 
     .menu-tabs {
       text-align: center;
